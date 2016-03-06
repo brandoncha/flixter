@@ -48,9 +48,9 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 body {
-  background: url('dark_wood.png');
+  background: url('sativa.png');
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
-  
+
 }
 
 .booyah-box {
@@ -65,4 +65,8 @@ body {
 
 .booyah-box h1, .booyah-box h2 {
   margin:10px;
+}
+
+.clr {
+  clear:both;
 }
