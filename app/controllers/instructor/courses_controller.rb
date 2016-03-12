@@ -22,7 +22,7 @@ class Instructor::CoursesController < ApplicationController
 
 	def require_authorized_current_course
 		if current_course.user != current_user
-			render text: "Unauthorized", status: :Unauthorized
+			redirect_to root_path, flash: {alert: "Unauthorized"}
 		end
 	end
 
