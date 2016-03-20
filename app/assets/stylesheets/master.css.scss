@@ -13,12 +13,12 @@
 }
 
 .hero {
-	background:url('hero.jpg') no-repeat center center fixed;
+	background:url('back.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-	height:570px;
+	height:790px;
 	box-shadow: 0px 1px 3px #2a2a2a;
 }
 
@@ -144,4 +144,19 @@ ul .header .glyphicon {
 hr {
     
     
+}
+
+.feature {
+  font-size:25px;
+}
+
+.photo {
+  height:600px;
+  width:1300px;
+  margin-left:30px;
+}
+
+.detail {
+  font-size:20px;
+  margin-left:15px;
 }
